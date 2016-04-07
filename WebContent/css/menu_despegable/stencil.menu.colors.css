@@ -1,0 +1,11 @@
+.stn-menu.blue,
+.stn-menu.blue ul a:hover,
+.stn-menu.blue ul .current a, .stn-menu.blue ul li:hover > a
+{
+	
+	color: #007D46 !important;
+
+	
+	-webkit-border-radius: 6px #0C65B6 !important;
+	-moz-border-radius: 6px #0C65B6 !important;
+}

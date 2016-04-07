@@ -1,0 +1,28 @@
+#hor-zebra
+{
+	font-size: 11px;
+	text-align: left;
+	border-collapse: collapse;
+        text-align: center;
+}
+#hor-zebra th
+{
+	font-weight: normal;
+	color: #039;
+}
+#hor-zebra td
+{
+	color: #424242;
+        border-top:1px solid #DEE7EF; 
+        border-left:1px solid #DEE7EF; 
+        border-right:1px solid #DEE7EF; 
+        
+        
+}
+#hor-zebra .odd
+{
+	background: #D8F6CE;
+         border-top:1px solid #DEE7EF; 
+         border-left:1px solid #DEE7EF; 
+         border-right:1px solid #DEE7EF; 
+}

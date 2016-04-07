@@ -1,0 +1,170 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+font-family: 'Trebuchet MS';
+background-image:url('../../images/cam.jpg'); background-attachment: fixed; background-position: top center; background-repeat: no-repeat;
+}
+iframe { 
+margin:0; 
+border-width: 0px;
+margin: 0 auto 0 auto; 
+padding:0;
+display:block; 
+width:100%; 
+border:none; 
+
+}
+ul, li, p {
+padding: 0px;
+margin: 0px;
+}
+.wrapper {
+margin: 0 auto;
+width: 1100px;
+margin-top: 20px;
+}
+.wrapper2 {
+margin: 0 auto;
+width: 950px;
+height: 100%;
+}
+.wrapper ul {
+list-style: none;
+}
+.wrapper ul li {
+font-weight: bold;
+background-color: white;
+display: block;
+float: left;
+font-size: 13px;
+height: 30px;
+line-height: 30px;
+overflow: hidden;
+padding-left: 15px;
+position: absolute;
+width: 135px;
+z-index: 10000;
+border: 1px solid #D8D8D8;
+}
+.wrapper ul li#a {
+margin-left: -45px;
+width: 120px;
+}
+.wrapper ul li#b {
+margin-left: 75px;
+width: 120px;
+}
+.wrapper ul li#c {
+margin-left: 100px;
+width: 150px;
+}
+.wrapper ul li#d {
+margin-left: 355px;
+width: 150px;
+}
+.wrapper ul li#e {
+margin-left: 500px;
+width: 120px;
+}
+.wrapper ul li#f {
+margin-left: 630px;
+width: 120px;
+}
+.wrapper ul li#g {
+margin-left: 756px;
+width: 120px;
+}
+.wrapper ul li#h {
+margin-left: 880px;
+width: 120px;
+}
+.wrapper ul li#i {
+margin-left: 1000px;
+width: 120px;
+}
+
+.wrapper ul li#l {
+margin-left: 200px;
+width: 150px;
+}
+.wrapper ul li a {
+display: block;
+text-decoration: none;
+color: #303030;
+}
+.wrapper ul li {
+background: #ffffff;
+background: -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6));
+background: -webkit-linear-gradient(top, #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
+background: -o-linear-gradient(top, #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
+background: -ms-linear-gradient(top, #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+background: linear-gradient(top, #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
+}
+.wrapper ul li:hover {
+background: #f3f3f3;
+background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f3f3f3), color-stop(51%,#ededed), color-stop(100%,#ffffff));
+background: -webkit-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+background: -o-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+background: -ms-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#ffffff',GradientType=0 );
+background: linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+}
+.wrapper ul li:first-child {
+-moz-border-radius: 4px 0 0 4px;
+-webkit-border-radius: 4px 0 0 4px;
+border-radius: 4px 0 0 4px;
+}
+.wrapper ul li:last-child {
+-moz-border-radius: 0 4px 4px 0;
+-webkit-border-radius: 0 4px 4px 0;
+border-radius: 0 4px 4px 0;
+}
+.wrapper ul li div {
+text-align: left;
+font: normal 11px arial;
+line-height: 19px;
+margin: 10px 0;
+}
+.wrapper ul li div a {
+display: inline;
+}
+.wrapper ul li div a:hover {
+text-decoration: underline;
+}
+.wrapper ul li div hr {
+border: none;
+border-top: 1px dotted #a0a0a0;
+margin: 5px 0;
+width: 95%;
+}
+.wrapper ul li:hover:target {
+display: inherit;
+padding: 0px;
+padding-left:15px;
+opacity: .97;
+-moz-opacity: .97;
+-webkit-transition: height 0.4s ease-in;
+}
+.wrapper ul li#a:hover:target {
+height: 135px;
+width: 119px;
+background: white;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', endColorstr='#b7df2d',GradientType=0 );
+}
+.wrapper ul li#c:hover:target {
+height: 225px;
+width: 139px;
+background: white;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', endColorstr='#b7df2d',GradientType=0 );
+}
+.wrapper ul li#l:hover:target {
+height: 605px;
+width: 339px;
+background: white;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', endColorstr='#b7df2d',GradientType=0 );
+}

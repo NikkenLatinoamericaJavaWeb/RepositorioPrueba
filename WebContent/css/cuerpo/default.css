@@ -1,0 +1,100 @@
+/** 
+ * Copyright 2008 Breezy New Media
+ * =====================================     
+ */     
+
+/* -- Basics -- */
+
+body		      { font: 62.8%/1.3 'trebuchet MS', sans-serif; font-size: 10px; font-weight: bold; color: black; padding:10px 0;  z-index: 5; background-image:url('../../images/cam.jpg'); background-attachment: fixed; background-position: top center; background-repeat: no-repeat;}
+a			        { color: #007D46; text-decoration: none; }
+a:hover{text-decoration: none; ; color:#0070a4;}
+a img   	    { border: 0; }
+button	      { vertical-align: middle; margin: 0; padding: 0; height: 18px; border: none; text-decoration: underline; font-weight: bold; color: #007D46; cursor: pointer; }
+
+h1	{ font-size: 2em; }
+h2	{ font-size: 1.6em; }
+h3	{ font-size: 1.2em; }
+h4	{ font-size: 1.2em; }
+h5	{ font-size: 1.1em; }
+h6	{ font-size: 1em; }
+
+h1, h2, h3, h4, h5, h6  { color: #007D46; }
+
+blockquote  { margin: 0; padding: 10px 20px; color: #333; line-height: 1.6; }
+fieldset    { border: 0 !important; }
+
+/* -- User friendly features -- */
+.hidden   { display: none; }
+
+/* -- Basics layout -- */
+#view     { width: 762px; margin: 0 auto;}
+#head     { font-size: 1.2em; }
+#content  { font-size: 1.2em; }
+#foot     { font-size: 1.2em; clear: both; }
+
+/* -- Logo constructs -- */
+#main       { position: relative; padding-left: 1px; margin-bottom: 12px; }
+#main h1 a  { text-decoration: none; color: #fff !important; }
+#main h2    { font-weight: normal; font-size: 1em; padding-left: 2px; margin-top: -3px; text-align: left}
+#main h2,
+#main h2 a  { color: #007D46; text-decoration: none; }
+
+#head a:hover { text-decoration: none !important; }
+
+/* -- Main classes -- */
+.fr		    { float: right !important; }
+.fl		    { float: left !important; }
+.clear    { clear: both !important; }
+.right	  { text-align: right !important; }
+.left		  { text-align: left !important; }
+.center	  { text-align: center !important; }
+.last		  { margin-right: 0 !important; margin-bottom: 0 !important; border-bottom: none !important; }
+.small	  { font-size: .90em; }
+.big      { font-size: 1.5em; }
+.item     { margin-bottom: 1.5em; clear: both; }
+.info     { font-size: .95em; margin: 2px 0 6px !important; color: #007D46; }
+.img      { padding: 15px; border: 1px #dff1f9 solid; float: left; }
+.img img  { padding: 0; border: none !important; }
+.self     { padding-left: 10px; float: left; margin-top: -14px; }
+.date     { font-weight: bold; color: #007D46; }
+.perex    { margin-bottom: 0 !important; z-index: 0;}
+.col1     { width: 49%; float: left; }
+.col2     { width: 49%; float: right; }
+.col2 *   { padding-left: 0 !important; }
+img.left  { margin-left: 0 !important; }
+img.right { margin-right: 0 !important; }
+
+/* -- Layout constructs -- */
+#logo       { margin-top: 35px; position: relative; width: 100%; height: 14px; overflow: hidden; background: white url('../../images/bg-logo.jpg') 0 0 no-repeat; }
+#mainMenu   { z-index: 5; height: 43px; padding: 0 12px; background: #0f2132 url('../../images/bg-menu.gif') no-repeat; }
+#content    { width: 100%; height: 100%; background: white url('../../images/bg-content.gif') repeat-y; float: left; border: 1px black;}
+#foot       { height: 44px; background: #0f2132 url('../../images/bg-foot.gif') no-repeat; }
+
+/* -- Right (submenu) block -- */
+#menuBlock                      { width: 260px; float: left;}
+#menuBlock .box                 { margin-bottom: 20px; padding: 0 10px 0 20px; overflow: hidden; clear: both; }
+#menuBlock .firstBox            { padding-top: 15px;}
+#menuBlock .box h3              { margin-bottom: 5px; padding-left: 20px;}
+#menuBlock .boxText p,
+#menuBlock .boxText a           { color: #007D46; }
+/* -- Left (content) block -- */
+#content > #contentBlock        { float: right;}
+#contentBlock                   { position: relative; left: 1px; float: left; width: 502px; min-height: 550px; margin-bottom: -20px; padding: 20px 0;}
+#contentBlock img               { margin: 3px; }
+#contentBlock .item             { position: relative; left: -1px; padding: 0 15px 0 25px;  border: 15px black;}
+#contentBlock .item h2,
+#contentBlock .item h3,
+#contentBlock .item h4,
+#contentBlock .item p           { font-weight: normal;}
+#contentBlock .itemEven         { padding-right: 0;  border: 1px black;}
+#contentBlock .mainItem         { padding-right: 0;  border: 1px black;}
+#contentBlock .mainItem .perex  { color: #007D46; width: 452px; padding: 25px; margin-left: -25px; margin-bottom: 2em !important; border-bottom: 1px #dff1f9 solid; background-color: #ecf8ff; }
+
+/* -- Lists -- */
+
+
+/* -- Footer part -- */
+#foot p       { padding: 5px 10px 0; }
+#foot *       { color: white; font-weight: bold; padding: 10px;}
+
+        /*-------------------------------------*/

@@ -1,0 +1,88 @@
+section, code{
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    background: #FFF;
+    padding: 15px 10px 10px;
+    max-width: 500px;
+    margin-bottom: 20px;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+}
+
+code {
+    display: block;
+    font-family: "Courier New", Courier, serif;
+    background: #E2E2E2;
+    color: black;
+}
+
+textarea {
+    font: 62.8%/1.3 'trebuchet MS', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    border: #CCC solid 1px;
+    padding: 5px;
+    background: white;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-box-shadow: inset 0 0 5px #EEE;
+    -webkit-box-shadow: inset 0 0 5px #EEE;
+    box-shadow: inset 0 0 5px #EEE;
+    color: #666;
+}
+
+input, select {
+    font-size: 14px;
+    border: #CCC solid 1px;
+    padding: 5px;
+    background: white;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-box-shadow: inset 0 0 5px #EEE;
+    -webkit-box-shadow: inset 0 0 5px #EEE;
+    box-shadow: inset 0 0 5px #EEE;
+    color: #666;
+}
+
+input[type=submit] {
+    background: #f0f8ff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.jquery_form_error_message {
+    margin: 5px 0 20px;
+    padding: 10px;
+    background: pink;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+
+.error {
+    background: pink;
+}
+
+span.chars_left,
+span.jquery_form_error_message {
+    background: #f2f2f2;
+    padding: 0 2px;
+    font-weight: normal;
+    font-size: 90%;
+    color: #666;
+}
+
+span.jquery_form_error_message {
+    color: red;
+    display: block;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+em {
+    font-size: 90%;
+    color: #81815c;
+    padding: 0 1px;
+}

@@ -1,0 +1,118 @@
+/* 
+
+	TableCloth	
+	by Alen Grakalic, brought to you by cssglobe.com
+	
+*/
+
+/* general styles */
+table, td{
+	font:100% Arial, Helvetica, sans-serif; 
+}
+table{width:100%;border-collapse:collapse;margin:1em 0;}
+th, td{text-align:left;padding: 0.4em;;border:1px solid #fff;}
+th{background:#328aa4 url(tr_back.gif) repeat-x;color:#fff;}
+td{background:#e5f1f4;}
+
+/* tablecloth styles */
+ .column.over{background:gray}
+
+
+ .anchotextBox {
+	background-color: #e5f1f4;
+	width: 55px;
+	height: 117%;
+	border: 0px;
+	margin-bottom: -5px;
+	margin-left: -6px;
+	margin-right: -6px;
+	margin-top: -6px;
+	text-align: center;
+}
+
+
+.exito, .error, .info {
+       font-family:Arial, Helvetica, sans-serif; 
+       font-size:13px;
+       border: 1px solid;
+       margin: 10px 0px;
+       padding:15px 10px 15px 50px;
+       background-repeat: no-repeat;
+       background-position: 10px center;
+       position:relative;
+}
+
+.exito {
+        color: #4F8A10;
+		font-size: 12px;
+		background-color: #DFF2BF;
+		background-image: url('exito.png');
+		width: 33%;
+		margin-left: 19%;
+		text-align: left
+}
+.error {
+   		color: #D8000C;
+		font-size: 12px;
+		background-color: #FFBABA;
+		background-image: url('error.png');
+		width: 47%;
+		margin-left: 30%;
+		text-align: left;
+}
+.info{
+	color: #00529B;
+	background-color: #BDE5F8;
+	background-image: url('infor.png');
+	height: 17px;
+	width: 47%;
+	margin-left: 30%;
+	font-size: 12px;
+}
+
+
+
+
+.styled-select select {
+   background: transparent;
+	width: 231px;
+	padding: 5px;
+	font-size: 12px;
+	line-height: 1;
+	border: 0;
+	border-radius: 0;
+	height: 22px;
+	-webkit-appearance: none;
+   }
+   
+   .styled-select {
+	width: 129px;
+	height: 21px;
+	overflow: hidden;
+	background: url('_notes/down_arrow_select.png') no-repeat right rgba(243, 243, 243, 0.39);
+	border: 1px solid #E4E4E4;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 6px;
+   }
+   
+   
+   .styleImage{
+    cursor: pointer;
+	height: 79px;
+	margin-left: 36% !important;
+	margin-top: 70% !important;
+   }
+   
+   .styleLink{
+   text-decoration: none;
+	margin-left: 34%;
+   }
+   
+   .descripcion{
+   	font-size: 92%;
+	font-family: sans-serif;
+   }
+   
+   
+/* use this if you want to apply different styleing to empty table cells*/

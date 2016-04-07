@@ -1,0 +1,24 @@
+#hor-zebra
+{
+	font-size: 11px;
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+        text-align: center;
+}
+#hor-zebra th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 10px 8px;
+	color: #039;
+}
+#hor-zebra td
+{
+	padding: 8px;
+	color: #424242;
+}
+#hor-zebra .odd
+{
+	background: #D8F6CE;
+}
